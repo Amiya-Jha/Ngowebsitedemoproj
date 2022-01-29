@@ -43,4 +43,3 @@ app.delete("/user", async (req, res) => {
 app.listen(process.env.PORT || port, () => {
     console.log(`Listening on port ${port}`);
 });
-// https://amiyango.herokuapp.com/ | https://git.heroku.com/amiyango.git
